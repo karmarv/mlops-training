@@ -19,3 +19,6 @@ def teardown_function(function):
 
 def test_modrunner_sum():
     assert operate(test_modrunner_sum.x, test_modrunner_sum.y, "sum") == 30
+
+def test_modrunner_product():
+    assert operate(test_modrunner_product.x, test_modrunner_product.y, "product") == 200
